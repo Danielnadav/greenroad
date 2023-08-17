@@ -11,7 +11,7 @@ dev2_subnet_cidr_block = "10.0.2.0/24"
 # EKS Cluster Settings
 # ------------------------------------------------------------
 cluster_name = "dev-cluster"
-cluster_version = "1.23"
+cluster_version = "1.25"
 worker_group_name = "dev-worker-group-1"
 worker_group_instance_type = [ "t3.medium" ]
 autoscaling_group_min_size = 1
